@@ -16,3 +16,16 @@ func TestUse(t *testing.T) {
 	mockUser.EXPECT().AddUser(1, "sample test ").Return(nil).Times(1)
 	testUser.Use()
 }
+
+
+
+/*
+import (
+
+	"testing"
+
+)
+
+func TestUse(t *testing.T) {
+
+} */
